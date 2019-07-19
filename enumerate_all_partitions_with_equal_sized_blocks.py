@@ -52,7 +52,3 @@ def enumerate_all_partitions_with_equal_sized_blocks(s, k):
     return functools.reduce(
         find_partitions_with_this_first_choice, possible_first_choices, frozenset()
     )
-
-
-print(enumerate_all_partitions_with_equal_sized_blocks(set(range(7)), 2))
-
