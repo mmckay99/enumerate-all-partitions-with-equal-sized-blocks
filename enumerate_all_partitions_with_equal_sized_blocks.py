@@ -54,5 +54,5 @@ def enumerate_all_partitions_with_equal_sized_blocks(s, k):
     )
 
 
-print(enumerate_all_partitions_with_equal_sized_blocks(set(range(15)), 3))
+print(enumerate_all_partitions_with_equal_sized_blocks(set(range(7)), 2))
 
