@@ -1,6 +1,7 @@
 This repository holds a Python function `enumerate_all_partitions_with_equal_sized_blocks` and some small doctests.
+Given a set `s` and integer `k`, the function returns a set (`frozenset`) of all possible partitions of `s` into subsets of size `k`. If `k` does not divide `len(s)` then the function returns an empty set.
 
-Given a set `s` and integer `k`, the function returns a set (`frozenset`) of all possible partitions of `s` into blocks of size `k`. If `k` does not divide `len(s)` then the function returns an empty set.
+There are ![n! / ((n/k)! * ((math.factorial(k)) ** (n/k)))](number_of_partitions_latex.svg) such partitions.
 
 I used this function to generate possible perfect `k`-dimensional matchings of a complete `k`-uniform hypergraph.
 
