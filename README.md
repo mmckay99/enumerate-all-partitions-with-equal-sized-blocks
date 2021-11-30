@@ -14,10 +14,10 @@ The number of possible partitions of equal sized blocks is exponential in `len(s
 
 For `k=3` I ran the following tests on my machine with 16 GiB RAM and 8 Intel(R) Core i7-7700 CPU @ 3.6GHz CPUs. 
 
-| n (k=3)       | time taken (s)  |
-| ------------- | -----:|
-| 3   | 0.05 |
-| 6  | 0.04 |
-| 9 | 0.04 |
-| 12 | 1.38 |
-| 15 | 815.90 (13 min!) |
+| n (k=3)       | time taken (s)  | number |
+| ------------- | -----:| ----- |
+| 3   | 0.05 | 1
+| 6  | 0.04 | 10
+| 9 | 0.04 | 280
+| 12 | 1.38 | 15,400
+| 15 | 815.90 (13 min!) | 1,401,400
